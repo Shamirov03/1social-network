@@ -7,7 +7,6 @@ from django.utils import timezone
 from pyotp import TOTP
 from twilio.rest import Client
 
-from ConnectionHub.settings import env
 
 
 class OtpVerification(models.Model):
